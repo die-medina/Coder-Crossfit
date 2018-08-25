@@ -1,0 +1,208 @@
+@font-face {
+	font-family: 'Kosugi', sans-serif;
+}
+
+html{
+	font-size: 1rem;
+	font-family: 'Kosugi';
+	background: black;
+}
+
+body{
+	margin: 0px;
+}
+
+/* ELEMENTOS DEL HEADER */
+
+.contenedorHeader{
+	height: 450px;
+	background: url(https://static1.squarespace.com/static/55f702f6e4b02b9a7be01b35/t/55f72349e4b078d9726f1298/1442259787169/CrossFit.jpg?format=1500w) 80% 58%;
+}
+
+.overlay{ 
+    width: 100%;
+    height: 450px;
+    background: #00000073;
+    position: absolute;
+    top:0;
+}
+
+.menu{
+	float: left;
+	color: white;
+	position: absolute;
+	top: 50px;
+	margin-top: -0px;
+	left: 60px;
+	font-size: 80px;
+}
+
+.texto1{
+	font-family: 'Kosugi';
+	z-index: 3;
+	position: relative;
+	color: white;
+	font-size: 1.5em;
+	top:200px;
+	padding: 0.5em 6em;
+	text-align: center;
+}
+
+/* ELEMENTOS DEL CUERPO */
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.contenedor{
+    width: 100%;
+    height: 500px;
+    background: black;
+    overflow: auto;
+    padding-top: 20px
+}
+
+.caja{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid white;
+    float: left;
+    margin: 30px;
+}
+
+.contenedor p{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-size: 50px;
+}
+
+.contenedor .texto{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 167px;
+    font-size: 30px;
+}
+
+.foto1{
+    background: url(https://i.pinimg.com/originals/fa/d0/b6/fad0b63a3be9ef6ccf376ebdab942577.jpg) 50% 50%;
+    background-size: cover;
+}
+
+.foto2{
+    background: url(https://st3.depositphotos.com/1000689/17591/i/1600/depositphotos_175914290-stock-photo-muscular-young-fitness-sports-man.jpg) 86% 50%;
+    background-size: cover;
+}
+
+.foto3{
+    background: url(https://i.pinimg.com/originals/b7/96/3f/b7963f7c6257be90fabab1689d9ac544.jpg) 0% 50%;
+    background-size: cover;
+}
+
+
+.actividades{
+	overflow: auto;
+}
+
+.box{
+	width: 33.3%;
+	height: 300px;
+	background: white;
+	border: 20px solid gray;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.box i{
+	margin-top: 50px;
+	color: red;
+	font-size: 60px;
+}
+
+.box p{
+	font-size: 40px;
+	font-family: 'Kosugi';
+}
+
+
+}
+
+/* FORMULARIO */
+
+.titulo{
+   font-family: 'Kosugi';
+   color: black;
+   background-color: white;
+   height: 100px;
+   text-align: center;
+   font-size: 2rem;
+   margin-top: 0.5em;
+   }
+
+.form{
+   font-family: 'Kosugi';
+   color: black;
+   margin: 0px;
+   padding: 50px;
+   color: black;
+}
+
+.form2{
+   font-family: 'Kosugi';
+   font-size: 1.2em;
+   background-color: white;
+   width: 500px;
+   border-radius: 10px;
+   border: 0;
+}
+
+.claro{
+   background-color: gray;
+}
+
+.form3{
+   font-family: 'Kosugi';
+   font-size: 1em;
+   color: black;
+   padding: 0.5em;
+   background-color: grey;
+   border-radius: 10px;
+   border: 0;
+}
+
+.texto3{
+   font-family: 'Kosugi';
+   color: black;
+   font-size: 1.5em;
+   padding: 0.5em 6em;
+   text-align: center;
+   background-color: white;
+}
+
+/* FORMULARIO */
+
+/* ELEMENTOS DEL FOOTER */
+
+a i {
+	font-size: 50px;
+}
+
+.footer{
+	margin-top: 80px;
+	height: 250px;
+	background: white;
+	text-align: center;
+}
+
+.redes{
+
+	padding: 40px;
+	color: #FC0107;
+}
+
