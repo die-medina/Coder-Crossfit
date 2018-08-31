@@ -51,7 +51,7 @@ body{
 /* ELEMENTOS DEL CUERPO */
 
 a {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -130,20 +130,17 @@ a {
 	font-family: 'Kosugi';
 }
 
-
-}
-
 /* FORMULARIO */
 
 .titulo{
+    height: 50px;
+    width: 100%;
    font-family: 'Kosugi';
-   color: black;
-   background-color: white;
-   height: 100px;
    text-align: center;
    font-size: 2rem;
-   margin-top: 0.5em;
-   }
+   color: white;
+   background-color: black;
+}
 
 .form{
    font-family: 'Kosugi';
@@ -158,13 +155,10 @@ a {
    font-size: 1.2em;
    background-color: white;
    width: 500px;
-   border-radius: 10px;
    border: 0;
 }
 
-.claro{
-   background-color: gray;
-}
+
 
 .form3{
    font-family: 'Kosugi';
@@ -172,7 +166,6 @@ a {
    color: black;
    padding: 0.5em;
    background-color: grey;
-   border-radius: 10px;
    border: 0;
 }
 
@@ -185,12 +178,6 @@ a {
    background-color: white;
 }
 
-h3{
-  color: red;
-  font-size: 30px;
-  padding: 20px;
-}
-
 /* FORMULARIO */
 
 /* ELEMENTOS DEL FOOTER */
@@ -201,13 +188,12 @@ a i {
 
 .footer{
 	margin-top: 80px;
-	height: 250px;
-	background: white;
+	height: 150px;
+	background: grey;
 	text-align: center;
 }
 
 .redes{
-
 	padding: 40px;
 	color: #FC0107;
 }
